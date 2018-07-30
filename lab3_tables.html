@@ -4,8 +4,10 @@
 <style>
 table, th, td {border: 1px solid black;}
 #name_form{background-color:green ;}
-.content{background-color:red ;text-align: center;}
-<ul>{list-style-type: square;}
+.intro{background-color:blue; width:100%; height:60px;}
+.content{background-color:red ;text-align: center; position: absolute; top:0px; right: 200px}
+.sidebar{background-color: lightblue; position: absolute; top:0px; right:95px; height: 100%; }
+.container{position: relative; height: 1000px;}
 </style>
 </head>
 <body>
@@ -24,6 +26,10 @@ table, th, td {border: 1px solid black;}
     <td>april</td>
   </tr>
 </table>
+</div>
+<div class="container">
+<div class="sidebar">
+<p>This is a sidebar</p>
 </div>
 
 <div class="content">
@@ -49,6 +55,7 @@ table, th, td {border: 1px solid black;}
 <input type="sumbit" value="submit">
 
 </form> 
+</div>
 </div>
 
 
